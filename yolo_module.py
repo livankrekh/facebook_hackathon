@@ -74,11 +74,31 @@ def postprocess(frame, outs):
 
 def checkCapture(detectedArr):
 	res = 0
+	last = detectedArr[len(detectedArr) - 1]
+
+	if (speak_module.result_rec.find("Погода") != -1 or speak_module.result_rec.find("погода") != -1):
+		tts = gTTS(text=str("В городе Киев сегодня будет солнечная погода с переменной облачностью"), lang='ru')
+		tts.save('speech.mp3')
+		os.system('mpg321 speech.mp3')
+		speak_module.result_rec = ""
+
+	if (speak_module.result_rec.find("где я") != -1 or speak_module.result_rec.find("Где я") != -1):
+		tts = gTTS(text=str("К сожалению, не могу определить ваше местоположение"), lang='ru')
+		tts.save('speech.mp3')
+		os.system('mpg321 speech.mp3')
+		speak_module.result_rec = ""
+
+	if (speak_module.result_rec.find("сколько автомобилей") != -1
+		or speak_module.result_rec.find("сколько машин") != -1):
+
+		tts = gTTS(text=str("Я вижу " + str(last.count('car')) + " машин"), lang='ru')
+		tts.save('speech.mp3')
+		os.system('mpg321 speech.mp3')
+		speak_module.result_rec = ""
 
 	if (speak_module.result_rec.find("посчитай людей") != -1
 		or speak_module.result_rec.find("ты видишь") != -1
 		or speak_module.result_rec.find("сколько людей") != -1):
-		last = detectedArr[len(detectedArr) - 1]
 		tts = gTTS(text=str("Я вижу " + str(last.count('person')) + " человека"), lang='ru')
 		tts.save('speech.mp3')
 		os.system('mpg321 speech.mp3')
