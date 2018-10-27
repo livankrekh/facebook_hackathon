@@ -104,6 +104,16 @@ def checkCapture(detectedArr):
 		os.system('mpg321 speech.mp3')
 		speak_module.result_rec = ""
 
+	if (speak_module.result_rec.find("впереди") != -1):
+		if (len(last) != 0):
+			tts = gTTS(text=str("Впереди что-то есть. Это " + str(last[0]) ), lang='ru')
+		else:
+			tts = gTTS(text=str("Впереди ничего нет"), lang='ru')
+		tts = gTTS(text=str("Я вижу " + str(last.count('person')) + " человека"), lang='ru')
+		tts.save('speech.mp3')
+		os.system('mpg321 speech.mp3')
+		speak_module.result_rec = ""
+
 	if (len(detectedArr) >= 100):
 		for det in detectedArr:
 			if (det.count('person') == 1):
