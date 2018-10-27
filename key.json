@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hackathon-project-220619",
+  "private_key_id": "d620f4eec48109c17f3b6520f894a1a0c11664ab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCiRPH0DDXtoOJY\nxrzkxhJCo+xTzwAC1pGvJaq8K9cvwnxHOvm8LeS4IFKP+9ioey7f8ivzwmxHvDyL\nJ2eSo4t+rRva2nu0PnwsXqGlXl5F8tN97yTWm868pwSuDrKcMU9SI+AURgCrSZAv\n+e87fUaLMn3yZ2HEcXuF3rLI7DnuAg9J902zABJL8fkLRhx1FtLT1DslJVykMctp\n6c7pqt4BnwmNbTlZVwgugqaUQ0VBtyP24IUl9OfE93fY9m38tlotqljqOJ5GI6Q6\nddN7d+OegPap8jc1OKRELMb3RfLP3qiZiH9vcS/ld/7AJHjUJPGnKp2uRggsvmRH\n2TijST+lAgMBAAECggEAJLpJL01COYZEJQbag0dno6i5mWCNZpcNQ2DZq5yaqIcz\nHOY210Zl8dzzAv7kU4IKIosMMrCLVJNA+tgQ48pbjPD+kIMKI8pOzbYfjS/2U4u6\nHdNueZqraNy+vOy7tYmdpABVvBD6HsrYNVuzL7pTqLbldeO7Z7yt0ieNPNfm5r04\n3BSL+SdmHLolZgdtvVTpHzhO8xeVSIKW7IkjjQadafhjY47oXbzNEhD8Hclerqge\nZen7e51vFsrI4idTYhdZzLg+m+UxTAVKe76WCf1PW7/NuMLGEHbDYs5QQsBtEHxW\nRrd6PJJgxf1gbid4+l1HGvWZfSbFi/kVfXc+2HnPgQKBgQDhzPFsAap+L7mrylZa\nMQb2W6cfE1U67QirdY5YFffdPAnc2sLg+Tu8Kvhed7ig0Yqb5WXxtYbRrI5gklwf\nWEOYn8iSmQn6FZ2UENyBQCKledxGwzY69H1TzOzDbQYwBJODShHGG0g2VkJldgGx\nqujDJ2JCmZneH89eAGPLxz1DZQKBgQC3+MrBBPhLEAXEeqjiHr0KLPUYWiZ8RI8+\nMFQcVJ++bgAm9eGQceWgjARuq5qbU0u1IzjrNElZQHpJJP9T34B8pBEOeuGqlH2Q\nOgKiezMeAd18BZ41lKK06FTIcCbBxM5fcZ8/QHUy0N2gVsvjnTS8ODwvcGDWWAfX\nrlkkag/nQQKBgQCvbO3Tn6e5yZJSqSxVfemO1L4OIpMA6M7nhrlELi0XsGFpOHxX\nFMsX8bpsik7igmlRnPOKyiEoHQuwc4UmxQgfN2Q4oLVjmg+GzWLC9/Ty4q4EO/2R\n6AjGZls7qSQ5ghSo147ffqqnrHSBJyFByypzE9H/NB6at9P/kAX4d55dEQKBgHpd\nCk6Txan3gD6M7yNnGolYGbUW0R46Y6QTdP5a8t0wQP2o8VynxPmh55jMnsrM/j/+\nq28Vmeu5TRy1dPYOZGGCpq2g4dQZa+KwEuyLURaWWwCQpAgzUn1NQocGwWCETFeD\nNU5Wyxz/e0mYMYi1GUxPgwhykJZAewbjufrUaLuBAoGAWX8bdovZB6M+9gd4wzuy\nd3dj+JJm8xmxfQNc6ZxkO75N6+zt6kmpfY7EqCL7MKHbIXYPvGE8GhP0+fIscICM\n+3xDe3gxf6jgxrv5ZWdtHiA8N97QpTo+JJBHQZ7wI+lI4krE9LWZ1kiuPe6PHI5X\noBN5cHr/BwvZLhG7f8ChVDg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "intellogic@hackathon-project-220619.iam.gserviceaccount.com",
+  "client_id": "111012822486269353478",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/intellogic%40hackathon-project-220619.iam.gserviceaccount.com"
+}
