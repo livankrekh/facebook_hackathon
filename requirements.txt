@@ -34,7 +34,7 @@ PyAudio==0.2.11
 pyttsx==1.1
 pytz==2018.6
 requests==2.20.0
-rsa==4.0
+rsa==4.7
 six==1.11.0
 tensorboard==1.11.0
 tensorflow==2.5.0
